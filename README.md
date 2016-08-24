@@ -44,7 +44,7 @@ n is the dimensions of query term word2vector features.
 > checkEnv.py : check input file isExits.
 
 **Get started**
-
+0. run check_input.py
 1. download input files according to input files
 2. Run deepTR_train.py to generate feature weights
 3. run deepTR_run.py 
@@ -52,6 +52,6 @@ n is the dimensions of query term word2vector features.
 
 **demo on jupeter notebook**
 
-[https://172.23.148.90:8888/notebooks/DeepTR.ipynb](https://172.23.148.90:8888/notebooks/DeepTR.ipynb)
+[http://sil.eastasia.cloudapp.azure.com:8888/notebooks/deepTR/DeepTR.ipynb](http://sil.eastasia.cloudapp.azure.com:8888/notebooks/deepTR/DeepTR.ipynb)
 
 password: Yuze8023
