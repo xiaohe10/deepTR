@@ -2,3 +2,4 @@ deepTR/input/GoogleNews-vectors-negative300.bin
 *.tsv
 .idea
 *.bin
+*.pyc
