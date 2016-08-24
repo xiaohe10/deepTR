@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="abc3f044-4651-4cf1-9f37-b2a43dd54df1" name="deepTR" url="http://sil.eastasia.cloudapp.azure.com">
+        <fileTransfer host="sil.eastasia.cloudapp.azure.com" port="22" rootFolder="/deepTR" accessType="SFTP" password="dff3dfdfdfd0dfcfdf92df9adf98df99" username="hex">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
