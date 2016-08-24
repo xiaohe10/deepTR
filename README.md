@@ -9,7 +9,7 @@ Linux + python2.7
 python libs: [Anaconda 4.1.1](https://www.continuum.io/downloads "Anaconda 4.1.1") |
 [gensim](https://radimrehurek.com/gensim/) | [sciki-learn](http://scikit-learn.org/)
 
-**inputs files**
+**input files**
 
 Pre-trained word and phrase vectors: [GoogleNews-vectors-negative300.bin](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
 
@@ -34,9 +34,24 @@ n is the dimensions of query term word2vector features.
 
 1000000 is the numbers of count data, 1e-07 is the paramater alpha for lasso regulation
 
+**file structrures**
+> DeepTR_train.py: train deepTR feature weights vector
+
+> DeepTR_run.py: use feature weights vector to generate weights of any input queries
+> 
+> DeepTR.ipynb: jupeter notebook to show deepTR run results
+
+> checkEnv.py : check input file isExits.
+
+**Get started**
+
+1. download input files according to input files
+2. Run deepTR_train.py to generate feature weights
+3. run deepTR_run.py 
+
 
 **demo on jupeter notebook**
 
-> [https://172.23.148.90:8888/notebooks/DeepTR.ipynb](https://172.23.148.90:8888/notebooks/DeepTR.ipynb)
+[https://172.23.148.90:8888/notebooks/DeepTR.ipynb](https://172.23.148.90:8888/notebooks/DeepTR.ipynb)
 
-> password: Yuze8023
+password: Yuze8023
