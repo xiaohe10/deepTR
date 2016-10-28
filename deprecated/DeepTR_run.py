@@ -20,8 +20,8 @@ def sigmoid(x):
 if __name__ == "__main__":
     stopwords = loadStopWords('input/stopword.in')
     model =  gensim.models.Word2Vec.load_word2vec_format('input/GoogleNews-vectors-negative300.bin',binary=True)
-    B = loadDeepTRModel("output/1000000_alphais_0.in")
-    print B
+    feature_weights = loadDeepTRModel("output/1000000_alphais_0.in")
+    print feature_weights
     while(True):
         query = raw_input("query:")
         if(query == "exit"): break
@@ -53,7 +53,7 @@ if __name__ == "__main__":
                 p = len(w[0])
                 weight = 0
                 for j in range(p):
-                    weight += w[i][j] * B[j]
+                    weight += w[i][j] * feature_weights[j]
                 print terms[i], ":", sigmoid(weight)
         else:
             print "no valid term"

@@ -1,7 +1,7 @@
 '''
 # Implementation of DeepTR which is a very efficient method of predicting term weights, which enables it to be used in online sevices wher lantency must be kept low.
 # author : t-hexiao@microsoft.com
-# paper(in /doc/): Learning to reweight terms with distributed representations
+# based theory: Learning to reweight terms with distributed representations
 '''
 print (__doc__)
 
